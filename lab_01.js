@@ -1,31 +1,36 @@
-// Bai 1
-// Cau a
+function bai1caua(){
 console.log('Hello world')
-// Cau b
+}
+function bai1caub(){
 console.log('LE QUANG THIEN')
-// Cau c
-console.clear() 
-// Cau d
+}
+function bai1cauc(){
+console.clear()
+} 
+function bai1caud(){
 console.log('*****')
 console.log('*****')
 console.log('*****')
 console.log('*****')
 console.log('*****')
-// Cau e
+}
+function bai1caue(){
 console.log('     *     ')
 console.log('    ***    ')
 console.log('   *****   ')
 console.log('  *******  ')
 console.log(' ********* ')
 console.log('***********')
-// Cau f
+}
+function bai1cauf(){
 console.log(' ** ** ')
 console.log('*  *  *')
 console.log(' *   * ')
 console.log('  * *  ')
 console.log('   *   ')
 console.clear()
-// Bai 2
+}
+function bai2(){
 let a = 10
 let b = '10'
 // Cau a
@@ -55,10 +60,10 @@ console.log(dienthoai)
 dienthoai.ten = 'Iphone 14 Promax'
 console.log(dienthoai)
 console.clear()
-// Bai 3
-// Cau a
-a = 5
-b = 2
+}
+function bai3(){
+let a = 5
+let b = 2
 console.log('a =',a)
 console.log('b =',b)
 console.log('Tong =',a + b)
@@ -122,3 +127,4 @@ console.log('Thoi gian =',t,'min')
 console.log('Quang duong =',v*(t/60),'km')
 // Cau j
 console.log('The tich =',(5*6*(8**3))+5*6*8,'cm^3')
+}
