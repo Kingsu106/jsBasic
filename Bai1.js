@@ -1,1 +1,1 @@
-console.log('Hello world')
+console.log(3*2**3)
