@@ -95,7 +95,7 @@ function Bai2cauc(a,b,c){
 }
 function Bai2caud(a){
     fee = 25000
-    if (a <=50){
+    if (a <= 50 && a >= 0){
         fee = fee + a*600
     }
     else if (a <= 200){
