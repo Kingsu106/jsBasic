@@ -177,4 +177,18 @@ for (i = 0;i < arr2.length;i++){
         gt3 = arr2[i]
     }
 }
-console.log(' %s %s %s',gt1,gt2,gt3)
+console.log('3 so lon nhat lan luot:',gt1,gt2,gt3)
+sum = gt1 + gt2 + gt3
+tbc = sum / 3
+console.log('Tong 3 so lon nhat:',sum)
+// Cau e
+console.log('Trung binh cong ba so lon nhat:',tbc)
+// Cau f
+slt = arr2[0]
+for (i = 1;i < arr2.length;i++){
+    if (slt > arr2[i]){
+        slt = arr2[i]
+    }
+}
+let diff = gt1 - slt
+console.log('Do lech lon nhat giua cac phan tu la:',diff)
