@@ -137,9 +137,9 @@ console.log('Mang so chan:',evvarr)
 arr2 = [5,-2,5,-6,23,69,100,-13,10,0,14]
 i = 0
 console.log('Cac cap so bang 10:')
-while(i < arr.length-1){
+while(i < arr2.length-1){
     j = i + 1
-    while(j < arr.length){
+    while(j < arr2.length){
         if (arr2[i]+ arr2[j] == 10){
             console.log(arr2[i],'&',arr2[j])
         }
@@ -147,3 +147,55 @@ while(i < arr.length-1){
     }
     i = i + 1
 }
+// Cau b
+i = 0
+let ers = 0
+let k = 0
+let c = 0
+while(i < arr2.length-1){
+    j = i + 1
+    while(j < arr2.length){
+        if (arr2[i] == arr2[j]){
+            k = j
+            ers = arr2[j]
+            while (k < arr2.length){
+                if (k == arr2.length - 1){
+                    arr2[k] = ers
+                }
+                else{
+                    arr2[k] = arr2[k+1]
+                }
+                k = k + 1
+            }
+        c = c + 1
+        }
+        j = j + 1
+    }
+    i = i + 1
+}
+arr2.pop()
+console.log(arr2)
+// Cau d
+i = 0
+while(i < arr2.length - 1){
+    j = i + 1
+    while(j < arr2.length){
+        if (arr2[i]>arr2[j]){
+            swp = arr2[j]
+            arr2[j] = arr2[i]
+            arr2[i] = swp
+        }
+        j = j + 1
+    }
+    i = i + 1
+}
+let gt1 = arr2[arr2.length-1]
+let gt2 = arr2[arr2.length-2]
+let gt3 = arr2[arr2.length-3]
+sum = gt1 + gt2 + gt3
+console.log('Tong ba so lon nhat:',sum)
+// Cau e
+console.log('Trung binh tong ba so lon nhat:',sum / 3)
+// Cau f
+let diff = arr2[arr2.length-1] - arr2[0]
+console.log('Do lech lon nhat trong mang =',diff)
